@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+
+# Build files
+client/build/
+client/dist/
+
+# Environment variables
+.env
+
+# Log files
+logs/
+*.log
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.zip
+*.rar
+*.gz
+*.tar
+*.swp
