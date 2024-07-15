@@ -11,7 +11,7 @@ const corsOptions = {
   allowedHeaders: ['Content-Type', 'Authorization'], // Add more headers as needed
 };
 
-// app.use(cors(corsOptions));
+ app.use(cors(corsOptions));
 
 app.use(express.static('build'));
 
