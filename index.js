@@ -5,13 +5,13 @@ import { v4 as uuidv4 } from "uuid";
 import bcrypt from "bcrypt";
 const app = express();
 
-const corsOptions = {
-  origin: 'http://localhost:3000', // Replace with your frontend URL
-  methods: ['GET', 'POST'], // Add more methods as needed
-  allowedHeaders: ['Content-Type', 'Authorization'], // Add more headers as needed
-};
+// const corsOptions = {
+//   origin: 'http://localhost:3000', // Replace with your frontend URL
+//   methods: ['GET', 'POST'], // Add more methods as needed
+//   allowedHeaders: ['Content-Type', 'Authorization'], // Add more headers as needed
+// };
 
- app.use(cors(corsOptions));
+ app.use(cors());
 
 app.use(express.static('build'));
 
